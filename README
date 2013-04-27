@@ -1,1 +1,20 @@
-This file was created by PyCharm 2.7.2 for binding GitHub repository
+Use a Raspberry Pi and plivo to make a button that makes phone calls.
+
+This is the code for the MakerBar Class "Raspberry Python - Talking Clock," more details are available here:
+http://www.meetup.com/MakerBar/events/111507382/
+
+Slides are available here:
+http://prezi.com/snlvzt9oq9b2/raspberry-python-call-mom-button/?kw=view-snlvzt9oq9b2&rc=ref-13789087
+
+This code lives here:
+https://github.com/Ciemaar/RaspberryPython-CallMom
+
+--- Setup ---
+
+1.  Install the Raspian to your Pi.
+2.  Copy all this code to the /home/pi directory.
+3.  sudo apt-get install ipython python-setuptools
+4.  sudo easy_install requests plivo
+5.  setup a plivo account
+
+Copyright 2013 Andy Fundinger - Andy@MakerBar.com

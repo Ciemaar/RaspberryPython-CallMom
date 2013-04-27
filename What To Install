@@ -1,0 +1,5 @@
+sudo apt-get install espeak python-requests python-setuptools ipython
+sudo easy_install plivo
+
+
+
