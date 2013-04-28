@@ -21,13 +21,13 @@ print "Ready!"
 while True:
     if not GPIO.input(7):
         print "Calling Mom"
-        params = {'from': "14242436227", 'to': '12019932664',
+        params = {'from': "14245550100", 'to': '12015550164',
                   'answer_url': "http://ciemaar.pythonanywhere.com/static/call_mom/answerThenCallMom.xml",
                   'answer_method': "GET"}
         p.make_call(params)
     elif not GPIO.input(11):
         print "Calling Dad"
-        params = {'from': "14242436227", 'to': '12019932664',
+        params = {'from': "14245550100", 'to': '12015550164',
                   'answer_url': "http://ciemaar.pythonanywhere.com/static/call_mom/answerThenCallYou.xml",
                   'answer_method': "GET"}
         p.make_call(params)
@@ -35,7 +35,7 @@ while True:
         print "Texting Mom"
         params = {
             'src': '12013455154', # Caller Id this must be a number you own
-            'dst': '14242436227', # User Number to Text
+            'dst': '14245550100', # User Number to Text
             'text': "Hi, mom!",
             'type': "sms",
         }
